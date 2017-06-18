@@ -1,0 +1,9 @@
+html,body,p,ul,ol,li,dl,h1,h2,h3,h4,h5,h6,fieldset,dl,dt,dd,legend,form,input{margin:0;padding:0;}
+html,body{width:100%;}
+body{color:#000000;}
+ul,li{list-style:none;}
+a{text-decoration:none;color:#000000;display: inline-block; cursor: pointer;}
+input{border:0;}
+img{border:none;}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal;}
+em,i{font-style:normal;}

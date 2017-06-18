@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:ng='http://angularjs.org'>
+<head>	
+    <!--[if lt IE 9]>
+		<script src='http://www.angularjs.cn/wp-content/themes/angularjs/js/html5.js' type='text/javascript'></script>
+	<![endif]-->
+	<meta charset="UTF-8">
+	<title>山东财经大学古典书库</title>
+	<link rel="stylesheet" href="src/css/reset.css"/>
+	<link rel="stylesheet" href="src/css/style.css"/>
+	<script src="lib/angular.js"></script>
+</head>
+<body>
+	<div class="container" ng-app="library" ng-controller="myCtrl">
+		<div ng-include="'./template/header.html'"></div>
+		<div class="content">
+			<div style='float:left;'  ng-include="'./template/left.html'"></div>
+			<div style='float:right;' ng-include="right"></div>
+		</div>
+		<div ng-include="'./template/footer.html'"></div>
+	</div>
+</body>
+<script src="src/js/app.js"></script>
+<script src="src/js/service.js"></script>
+<script src="src/js/controller.js"></script>
+</html>

@@ -1,0 +1,35 @@
+<div class="right">
+
+	<ul class="detail">
+		<li><span>书籍编号:</span>{{detail.book_num}}</li>
+		<li><span>编号类型:</span>{{detail.num_type}}</li>
+		<li><span>书籍名称:</span><span class="bookname">{{detail.book_name}}</span></li>
+		<li><span>书籍年代:</span>{{detail.book_times}} {{detail.century_name}}</li>
+		<li><span>具体年代:</span>{{detail.book_year}}</li>
+		<li><span>文物类别:</span>{{detail.book_type}}</li>
+		<li><span>质地:</span>{{detail.book_character}} {{detail.book_character1}} {{detail.book_character2}}</li>
+		<li><span>实际数量:</span>{{detail.book_quantity}}</li>
+		<li><span>外形尺寸(cm):</span>通长:{{detail.book_length}} 
+				通宽:{{detail.book_width}}
+				通高:{{detail.book_height}}
+		</li>
+		<li><span>质量:</span>具体质量:{{detail.book_quality}}
+				单位:{{detail.unit_name}}
+		</li>
+		<li><span>文物级别:</span>{{detail.class_name}}</li>
+		<li><span>文物来源:</span>{{detail.origin_name}}</li>
+		<li><span>完残程度:</span>{{detail.com_name}}</li>
+		<li><span>保存状态:</span>{{detail.con_name}}</li>
+		<li><span>入藏时间范围:</span>{{detail.rantime_name}}</li>
+	</ul>
+	
+	<div class="pic">
+		<button class="prepic" ng-click='prePic();'><</button>
+		<ul class="imgList">
+			<li ng-repeat='item in imgs'><img ng-src={{item}} alt=""></li>
+		</ul>
+		<button class="nextpic" ng-click='nextPic();'>></button>
+	</div>
+	
+
+</div>

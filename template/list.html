@@ -1,0 +1,19 @@
+<div class="right">
+	<table class="list">
+		<tr>
+			<th>书籍编号</th>
+			<th>书籍名称</th>
+			<th>时间</th>
+		</tr>
+		<tr ng-repeat="item in list">
+			<td>{{item.book_num}}</td>
+			<td><a bookid={{item.book_num}} ng-click="getDetail($event);">{{item.book_name}}</a></td>
+			<td>{{item.book_year}}</td>
+		</tr>
+	</table>
+	<div class="pageMsg">共{{totalNum}}条记录，当前第{{currPage}}页
+	<button ng-click="firstPage();">首页</button>
+	<button ng-click="prePage();">上一页</button>
+	<button ng-click="nextPage();">下一页</button>
+	<button ng-click="lastPage();">尾页</button></div>
+</div>

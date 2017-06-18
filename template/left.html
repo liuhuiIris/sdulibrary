@@ -1,0 +1,18 @@
+<div class="left">
+	<div class="search">
+		<input class="searchTxt" ng-model='keyword' />
+		<button class="searchBtn" ng-click="searchBtn(keyword);">搜索</button>
+	</div>
+	<div class="sub_menu">分类导航</div>
+	<ul class="type">
+		<li><a ng-click="getAll();">全部</a></li>
+		<li>
+			<span ng-click="typeBtn($event);"><i>-</i>语言</span>
+			<div ng-repeat="item in type.lanType"><a title={{item.language_id}} type="lanlist" ng-click="typeList($event);">{{item.language_name}}</a></div>
+		</li>
+		<li>
+			<span ng-click="typeBtn($event);"><i>-</i>年代</span>
+			<div ng-repeat="item in type.cenType"><a title={{item.century_id}} type="cenlist"  ng-click="typeList($event);">{{item.century_name}}</a></div>
+		</li>
+	</ul>
+</div>

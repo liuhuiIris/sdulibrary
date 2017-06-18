@@ -1,0 +1,38 @@
+html, body { width: 100%; overflow-x: hidden; }
+
+.container { position: relative; width: 1100px; margin: 0 auto; padding: 0 5px; background: url(../images/templatemo_main_bg.jpg) repeat-y; background-size: 100% 100%; overflow: hidden; }
+.container .header { width: 100%; height: 120px; background: url(../images/templatemo_header.jpg) no-repeat; background-size: 100% 100%; position: relative; }
+.container .header h1 { position: absolute; left: 20px; bottom: 20px; }
+.container .menu { color: #fff; text-indent: 20px; width: 100%; height: 45px; line-height: 45px; background: url(../images/templatemo_menu_bg.jpg) no-repeat; background-size: 100% 100%; }
+.container .content { width: 100%; min-height: 500px; display: flex; background: url(../images/templatemo_content_top.jpg) no-repeat; background-size: 100% 100px; padding-top: 50px; overflow: hidden; }
+.container .content .left { width: 180px; height: 100%; padding-left: 20px; padding-right: 20px; border-right: 1px solid #ccc; }
+.container .content .left .search { margin-bottom: 20px; }
+.container .content .left .search .searchTxt { width: 100px; height: 20px; border: 1px solid #acacac; border-radius: 3px; outline: none; }
+.container .content .left .search .searchBtn { border-radius: 3px; border: 1px solid #ccc; width: 50px; height: 20px; }
+.container .content .left .search .searchBtn:hover { background: #acacac; }
+.container .content .left .sub_menu { margin-bottom: 20px; }
+.container .content .left .type li:nth-child(1) { border-bottom: 1px solid #acacac; }
+.container .content .left .type li span { cursor: pointer; display: block; width: 100%; border-bottom: 1px solid #acacac; }
+.container .content .left .type li a { padding-left: 20px; }
+.container .content .left .type li a:hover { color: red; }
+.container .content .left .type li > a { padding-left: 0px; }
+.container .content .right { width: 800px; padding: 0 36px; min-height: 500px; position: relative; }
+.container .content .right .list { width: 90%; text-align: center; }
+.container .content .right .list tr td { width: 200px; height: 50px; }
+.container .content .right .list tr td:nth-child(2) a { width: 500px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: left; text-indent: 50px; }
+.container .content .right .pageMsg { text-align: right; margin-top: 20px; margin-right: 70px; margin-bottom: 50px; }
+.container .content .right .pageMsg button { margin: 0 10px; }
+.container .content .right .detail li { height: 40px; }
+.container .content .right .detail li span { line-height: 40px; display: inline-block; width: 150px; height: 30px; }
+.container .content .right .detail li .bookname { width: 450px; line-height: 16px; }
+.container .content .right .pic { position: absolute; right: 50px; top: 50px; width: 300px; height: 300px; }
+.container .content .right .pic button { cursor: pointer; width: 30px; height: 30px; position: absolute; top: 50%; background: #fff; outline: none; border: 1px solid #acacac; border-radius: 100%; }
+.container .content .right .pic button:hover { background: #ccc; }
+.container .content .right .pic .prepic { left: 0; }
+.container .content .right .pic .nextpic { right: 0; }
+.container .content .right .imgList { position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; width: 200px; height: 200px; overflow: hidden; border: 3px dashed #ccc; padding: 5px; }
+.container .content .right .imgList li { position: absolute; width: 200px; height: 200px; display: none; }
+.container .content .right .imgList li:nth-child(1) { display: block; }
+.container .content .right .imgList li.active { display: block; }
+.container .content .right .imgList li img { width: 200px; height: 200px; }
+.container .footer { color: #333; width: 1100px; padding: 20px 0; text-align: center; background: #ced1c8; }
