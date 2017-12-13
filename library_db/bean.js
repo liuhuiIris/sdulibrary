@@ -137,10 +137,10 @@ module.exports = {'getList':getList,'getType':getType,'query':query,'toString':t
 // 		// var _this = this;
 // 		this.data = '';
 // 		this.client = mysql.createPool({
-// 			'host' : '123.206.53.51',
+// 			'host' : 'localhost',
 // 			'port' : '3306',
 // 			'user' : 'root',
-// 			'password' : '255437Lh',
+// 			'password' : 'password',
 // 			'database' : 'books'
 // 		});
 
