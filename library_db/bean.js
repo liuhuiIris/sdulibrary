@@ -9,10 +9,10 @@ var conn;
 
 function handleError () {
     conn = mysql.createConnection({
-        'host' : '123.206.53.51',
+        'host' : 'localhost',
 		'port' : '3306',
 		'user' : 'root',
-		'password' : '255437Lh',
+		'password' : 'password',
 		'database' : 'books'
     });
 
